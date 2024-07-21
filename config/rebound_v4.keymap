@@ -29,6 +29,13 @@
 	    bindings = <&kp MINUS &kp MINUS &kp MINUS &kp MINUS &kp MINUS &kp MINUS &kp MINUS &kp MINUS &kp MINUS &kp MINUS &kp MINUS &kp MINUS>;
 	    label = "DIVIDER";
         };
+
+        AlightE: AlightE {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp D &kp A &kp V &kp I &kp D &kp DOT &kp T &kp E &kp A &kp N &kp O &kp AT &kp A &kp L &kp I &kp G &kp H &kp T &kp DOT &kp C &kp O &kp M>;
+            label = "ALIGHTE";
+        };
     };
 
     keymap {
