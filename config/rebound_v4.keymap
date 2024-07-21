@@ -66,7 +66,7 @@
 // |      |     |     | ALT |      | ENT |     |       |     | BKSP |     | CTRL |     |     |       | 
 //
 		bindings = < 
-   &kp TAB    &AlightE   &none     &none            &Divider  &kp F13                   &kp MINUS      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp KP_PLUS  &kp BACKSPACE   
+   &kp TAB    &none      &none     &none            &none     &kp F13                   &kp MINUS      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp KP_PLUS  &kp BACKSPACE   
    &trans     &kp EXCL   &kp AT    &kp HASH         &kp DLLR  &kp PRCNT     &none       &kp DOT        &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp EQUAL    &kp DEL
    &kp LSHFT  &kp CARET  &kp AMPS  &kp KP_MULTIPLY  &kp LPAR  &kp RPAR      &none       &kp NUMBER_0   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans       &trans
    &none      &none      &none     &trans           &trans    &kp RETURN    &none       &kp BACKSPACE  &trans        &trans        &none         &none        &none
