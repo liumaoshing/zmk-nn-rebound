@@ -22,6 +22,15 @@
         };
     };
 
+    macros {
+	Divider: Divider {
+	    compatible = "zmk,behavior-macro";
+	    #binding-cells = <0>;
+	    bindings = <&kp MINUS &kp MINUS &kp MINUS &kp MINUS &kp MINUS &kp MINUS &kp MINUS &kp MINUS &kp MINUS &kp MINUS &kp MINUS &kp MINUS>;
+	    label = "DIVIDER";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
