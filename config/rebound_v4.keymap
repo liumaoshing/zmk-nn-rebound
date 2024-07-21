@@ -55,7 +55,7 @@
    &none         &none        &none     &kp LALT    &mo 1    &kp SPACE  &kp K_MUTE     &kp SPACE &mo 2     &kp RCTRL   &none       &none      &none  
                         >;
 
-			sensor-bindings = <&inc_dec_kp DEL BSPC>;
+			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
                 };
 
         lower_layer {
